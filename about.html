@@ -80,9 +80,39 @@ li a:hover: not(.active){
   
 </body>
   <body>
-    <img id= "image" src="bg.jpg" alt= "bg">
-    <button type="button" class= "button" data-download = "myImage" > DOWNLOAD IMAGE</button>
+    <a href="bg.jpg" download> DOWNLOAD </a>
+    <p> DOWNLOAD SOFTWARE </p>
   </body>
+  <style>
+    *{
+      padding:0;
+      margin:0;
+      box-sizing: border-box;
+  }
+    body {
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: colum;
+      font-family: sans-self;
+      {
+      a{
+        display:block;
+        background:#00A9D4;
+        color:#fff;
+        padding: 15px;
+        cursor:pointer;
+        text-decoration: none;
+        width: 320px;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 20px;
+      }
+      a:hover{
+        background:#00729D;
+      }
+  </style>
   
 
 </html>
